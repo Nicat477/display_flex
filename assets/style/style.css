@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.boxes .first{
+    background-color: brown;
+}
+.boxes .second{
+    background-color: blue
+}
+.boxes .third{
+    background-color: yellow;
+}
+.boxes .fourth{
+    background-color: cyan;
+}
+
+.boxes.boxes1 .first{
+    background-color:deeppink;
+}
+.boxes.boxes1 .second{
+    background-color: greenyellow
+}
+.boxes.boxes1 .third{
+    background-color:darkorchid;
+}
+.boxes.boxes1 .fourth{
+    background-color: orange;
+}
+
+.boxes.boxes2 .first{
+    background-color: rgb(7, 197, 92);
+}
+.boxes.boxes2 .second{
+    background-color: yellow
+}
+.boxes.boxes2 .third{
+    background-color: rgb(82, 82, 194);
+}
+.boxes.boxes2 .fourth{
+    background-color: rgb(44, 177, 44);
+}
+
+.boxes.boxes3 .first{
+    background-color: palevioletred;
+}
+.boxes.boxes3 .second{
+    background-color: cyan
+}
+.boxes.boxes3 .third{
+    background-color: rgb(102, 223, 156);;
+}
+.boxes.boxes3 .fourth{
+    background-color:rgb(241, 218, 116);
+}
+
+.boxes.boxes4 .first{
+    background-color: palevioletred;
+}
+.boxes.boxes4 .second{
+    background-color: deeppink
+}
+.boxes.boxes4 .third{
+    background-color: cyan;
+}
+.boxes.boxes4 .fourth{
+    background-color:rgb(226, 174, 156);
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    
+}
+.boxes div{
+    display: flex;
+    color:black;
+    height:50px;
+    width:50px;
+    justify-content: center;
+    align-items: center;
+}
+.boxes1{
+    display: flex;
+    justify-content: space-around;
+}
+.boxes2{
+    display: flex;
+    justify-content: flex-end;
+}
+.boxes3{
+    display: flex;
+    justify-content: space-between;
+}
+.boxes4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+}
+.boxes4 div{
+    border-radius: 50%;
+}
